@@ -1,0 +1,20 @@
+{
+  "seed": 0,
+  "p": 113,
+  "train_frac": 0.5,
+  "d_model": 256,
+  "n_heads": 4,
+  "d_ff": 1024,
+  "n_layers": 1,
+  "dropout": 0.0,
+  "batch_size": 1024,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "max_steps": 200000,
+  "eval_every": 200,
+  "grad_clip": 1.0,
+  "train_acc_threshold": 0.995,
+  "test_acc_threshold": 0.99,
+  "min_train_streak": 5,
+  "min_test_streak": 5
+}
